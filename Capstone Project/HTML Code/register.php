@@ -16,8 +16,8 @@
 <h1> Stock Market </h1>
 
 <!--<img src="LoginButton.png" alt="Login" style="width:100px;height:50px;"/>-->
-<img style="position:absolute; top:15px; left:1050px; width:100px; height:50px" src="LoginButton.png"/>
-<img style="position:absolute; top:15px; left:1250px; width:100px; height:50px" src="register-green.jpg"/>
+<a href="login.php"><img  style="position:absolute; top:15px; left:1050px; width:100px; height:50px" src="LoginButton.png"/></a>
+<a href="register.php"><img style="position:absolute; top:15px; left:1250px; width:100px; height:50px" src="register-green.jpg"/></a>
 
 </div>
 
@@ -74,6 +74,12 @@
 </div>
 <div class='container' style='height:80px;'>
     <label for='password' >Password*:</label><br/>
+    <div class='pwdwidgetdiv' id='thepwddiv' ></div>
+    <input type='password' name='password' id='password' maxlength="50" />  
+    <div id='register_password_errorloc' class='error' style='clear:both'></div>
+</div>
+<div class='container' style='height:80px;'>
+    <label for='password' >Re-Enter Password*:</label><br/>
     <div class='pwdwidgetdiv' id='thepwddiv' ></div>
     <input type='password' name='password' id='password' maxlength="50" />  
     <div id='register_password_errorloc' class='error' style='clear:both'></div>
