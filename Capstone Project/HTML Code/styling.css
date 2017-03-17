@@ -6,6 +6,9 @@ margin: 0 auto;
 text-align: center;
 
 }
+.login{
+position:absolute; top:5px; right:40px; width: 80px; height: 25px		
+}
 .body1{
 background-color: #FFFFFF;
 }
