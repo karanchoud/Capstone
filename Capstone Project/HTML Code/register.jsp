@@ -54,17 +54,17 @@
 <div><span class='error'></span></div>
 <div class='container'>
     <label for='name' >First Name*: </label><br/>
-    <input type='text' name='name' id='name' value='' maxlength="50" /><br/>
+    <input type='text' name='name' id='name' value='' maxlength="50" placeholder = "eg: John"/><br/>
     <span id='register_name_errorloc' class='error'></span>
 </div>
 <div class='container'>
     <label for='name' >Last Name*: </label><br/>
-    <input type='text' name='name' id='name' value='' maxlength="50" /><br/>
+    <input type='text' name='name' id='name' value='' maxlength="50" placeholder = "eg: Appleseed"/><br/>
     <span id='register_name_errorloc' class='error'></span>
 </div>
 <div class='container'>
     <label for='email' >Email Address*:</label><br/>
-    <input type='text' name='email' id='email' value='' maxlength="50" /><br/>
+    <input type='text' name='email' id='email' value='' maxlength="50" placeholder = "eg: johnappleseed@randomemail.com"/><br/>
     <span id='register_email_errorloc' class='error'></span>
 </div>
 <div class='container'>

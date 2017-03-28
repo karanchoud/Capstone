@@ -3,6 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 
 <head>
+<link rel="STYLESHEET" type="text/css" href="style/register.css" />
 </head>
 <title> Welcome to The Stock Market Trading Web Page </title>
 <link rel="stylesheet" type="text/css" href="styling.css" />
@@ -40,7 +41,7 @@
 <p></p>
 
 <div id='register'>
-<form id='register' action='' method='post' accept-charset='UTF-8'>
+<form id='login' action='' method='post' accept-charset='UTF-8'>
 <fieldset>
 <legend><b>Login Page</b></legend>
 
