@@ -72,7 +72,7 @@
 <div id='trading'>
 <form id='trading1' action='' method='post' accept-charset='UTF-8'>
 <fieldset>
-<legend><b>Trading</b></legend>
+<legend><b>Amending</b></legend>
 
 <input type='hidden' name='submitted' id='submitted' value='1'/>
 
@@ -90,7 +90,12 @@
 <p></p>
 <div class='container'>
     <label for='code' style = 'margin-left: 40px;' >Stock Code:  &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;</label>
-    <input style = 'width:100px' type='code' name='code' id='code' maxlength="8" /><span id="msg"></span>  
+    <select>
+  <option value="code1">AAA1234</option>
+  <option value="code2">BBB1234</option>
+  <option value="code3">CCC1234</option>
+  <option value="code4">DDD1234</option>
+</select>
 </div>
 <label for='stockprice' style = 'margin-right: -160px;font-size:10px;' >Stock Price: $ &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;</label>
 <br></br>
@@ -114,7 +119,7 @@
 
 
 <div class='container'>
-    <input type='submit' name='Place Order' value='Place Order' />
+    <input type='submit' name='Modify Stock' value='Modify Stock' />
 </div>
 
 </fieldset>
