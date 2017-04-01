@@ -79,6 +79,8 @@
     <label for='code' style = 'margin-left: 40px;' >Stock Code:  &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;</label>
     <input style = 'width:100px' type='code' name='code' id='code' maxlength="8" /><span id="msg"></span>  
 </div>
+<label for='stockprice' style = 'margin-right: -160px;font-size:10px;' >Stock Price: $ &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;</label>
+<br></br>
 <br></br>
     <label for='quantity' >Quantity: &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
     <input style = 'width:50px' type="number" min="0" max="100" name="quantity" id='quantity'  maxlength="2" /> <br></br><br></br> 
