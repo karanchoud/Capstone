@@ -32,9 +32,9 @@
 <div class="content">
 
 <h1> Stock Market </h1><div style="margin: auto; position:absolute; top:5px; right:40px; width: 80px; height: 25px; ">
-<a href="login.jsp">Login</a></div>
+<a href="login.jsp" style="text-decoration:none">Login</a></div>
 <div style="position:absolute; top:40px; right: 40px; width:80px; height:25px">
-<a href="register.jsp">Register</a></div>
+<a href="register.jsp" style="text-decoration:none">Register</a></div>
 
 </div>
 
